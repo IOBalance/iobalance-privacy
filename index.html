@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IOBalance — Privacy Policy</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #f5f5f7;
+    --surface: #ffffff;
+    --primary: #185FA5;
+    --text: #111111;
+    --text-secondary: #555555;
+    --border: rgba(0,0,0,0.08);
+    --radius: 12px;
+  }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  header {
+    background: var(--primary);
+    color: white;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  header h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.5px; }
+  header p { margin-top: 8px; opacity: 0.8; font-size: 14px; }
+  .lang-nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 24px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .lang-nav a {
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.15s;
+  }
+  .lang-nav a:hover { background: var(--primary); color: white; border-color: var(--primary); }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  .lang-section { display: none; }
+  .lang-section.active { display: block; }
+  h2 { font-size: 22px; font-weight: 600; margin: 40px 0 16px; color: var(--primary); }
+  h2:first-child { margin-top: 0; }
+  h3 { font-size: 16px; font-weight: 600; margin: 24px 0 8px; }
+  p { margin-bottom: 12px; color: var(--text); }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 6px; color: var(--text); }
+  .card {
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin-bottom: 16px;
+    border: 1px solid var(--border);
+  }
+  .highlight {
+    background: #e6f1fb;
+    border-left: 3px solid var(--primary);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-size: 15px;
+  }
+  .updated { font-size: 13px; color: var(--text-secondary); margin-bottom: 32px; }
+  footer {
+    text-align: center;
+    padding: 32px 24px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>IOBalance</h1>
+  <p>Privacy Policy &amp; Store Descriptions</p>
+</header>
+
+<nav class="lang-nav">
+  <a href="#" onclick="showLang('it'); return false;">🇮🇹 Italiano</a>
+  <a href="#" onclick="showLang('en'); return false;">🇬🇧 English</a>
+  <a href="#" onclick="showLang('es'); return false;">🇪🇸 Español</a>
+  <a href="#" onclick="showLang('fr'); return false;">🇫🇷 Français</a>
+  <a href="#" onclick="showLang('de'); return false;">🇩🇪 Deutsch</a>
+  <a href="#" onclick="showLang('pt'); return false;">🇵🇹 Português</a>
+</nav>
+
+<main>
+
+<!-- ═══════════════════════════════════════════ ITALIANO ═══ -->
+<section class="lang-section active" id="lang-it">
+  <p class="updated">Ultimo aggiornamento: 21 maggio 2026</p>
+
+  <h2>🔒 Privacy Policy</h2>
+
+  <div class="card">
+    <div class="highlight">IOBalance non raccoglie, non trasmette e non condivide alcun dato personale. Tutti i tuoi dati rimangono esclusivamente sul tuo dispositivo.</div>
+
+    <h3>Dati trattati</h3>
+    <p>IOBalance archivia localmente sul tuo dispositivo le seguenti informazioni, inserite volontariamente dall'utente:</p>
+    <ul>
+      <li>Transazioni finanziarie (importo, categoria, data, note)</li>
+      <li>Categorie e sottocategorie personalizzate</li>
+      <li>Budget e obiettivi di risparmio</li>
+      <li>Preferenze dell'app (valuta, lingua, tema, notifiche)</li>
+      <li>PIN di blocco (salvato in forma cifrata localmente)</li>
+    </ul>
+
+    <h3>Nessuna raccolta dati</h3>
+    <p>L'app non utilizza analytics, tracker, pubblicità, servizi di crash reporting o qualsiasi altra tecnologia che trasmetta dati a server esterni. Non esiste un backend IOBalance.</p>
+
+    <h3>Permessi richiesti</h3>
+    <ul>
+      <li><strong>Biometria:</strong> usata solo per sbloccare l'app se abilitata dall'utente. I dati biometrici non vengono mai letti né memorizzati da IOBalance.</li>
+      <li><strong>Notifiche:</strong> usate per promemoria e alert budget, gestiti interamente sul dispositivo.</li>
+      <li><strong>Storage (opzionale):</strong> richiesto solo per salvare il file di backup nella cartella Download.</li>
+    </ul>
+
+    <h3>Backup</h3>
+    <p>La funzione di backup esporta i tuoi dati in un file <code>.iobalance</code> sul tuo dispositivo o condiviso tramite le app da te scelte (es. Google Drive, email). IOBalance non ha accesso a questo file dopo l'esportazione.</p>
+
+    <h3>Minori</h3>
+    <p>IOBalance non raccoglie dati da nessun utente, inclusi i minori.</p>
+
+    <h3>Contatti</h3>
+    <p>Per qualsiasi domanda sulla privacy: <strong>giacomo.giostra@gmail.com</strong></p>
+  </div>
+
+  <h2>📱 Descrizione Play Store — IT</h2>
+  <div class="card">
+    <h3>Titolo</h3>
+    <p><strong>IOBalance: Budget & Expenses</strong></p>
+
+    <h3>Descrizione breve (80 car.)</h3>
+    <p>Tieni traccia di spese e ingressi. Saldo netto, budget, obiettivi di risparmio.</p>
+
+    <h3>Descrizione completa</h3>
+    <p>
+      IOBalance è l'app di finanza personale pensata per chi vuole tenere tutto sotto controllo senza complicazioni. Interfaccia moderna, dati sempre al sicuro sul tuo dispositivo, nessun account richiesto.
+    </p>
+    <p><strong>💰 Registra entrate e uscite</strong><br>
+    Inserisci transazioni in pochi tocchi. Categorie e sottocategorie personalizzabili con icone e colori. Transazioni ricorrenti automatiche. Supporto per rimborsi parziali.</p>
+    <p><strong>📊 Dashboard completa</strong><br>
+    Saldo netto mensile, tasso di risparmio, grafici a torta per categoria, andamento negli ultimi mesi. Tutto a colpo d'occhio.</p>
+    <p><strong>🎯 Budget e Obiettivi</strong><br>
+    Imposta budget per categoria (importo fisso o % degli ingressi). Crea obiettivi di risparmio con proiezioni basate sui tuoi dati reali.</p>
+    <p><strong>🌍 6 lingue supportate</strong><br>
+    Italiano, Inglese, Spagnolo, Francese, Tedesco, Portoghese. Formati di data e numero adattati alla lingua.</p>
+    <p><strong>🔒 Privacy totale</strong><br>
+    Nessun account, nessun server, nessun tracker. I tuoi dati rimangono sul tuo telefono. Blocco app con impronta digitale e PIN.</p>
+    <p><strong>💾 Backup & Ripristino</strong><br>
+    Esporta tutti i tuoi dati in un file sicuro. Ripristina su un nuovo dispositivo in pochi secondi. Esportazione CSV e PDF per consultazione esterna.</p>
+    <p><strong>✈️ Modalità vacanza</strong><br>
+    Registra spese in valuta estera con conversione automatica. Tasso di cambio manuale per massima flessibilità.</p>
+    <p><strong>🎨 Design curato</strong><br>
+    Tema chiaro e scuro, font Inter, animazioni fluide. Un'app che è piacevole da usare ogni giorno.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ ENGLISH ═══ -->
+<section class="lang-section" id="lang-en">
+  <p class="updated">Last updated: May 21, 2026</p>
+
+  <h2>🔒 Privacy Policy</h2>
+
+  <div class="card">
+    <div class="highlight">IOBalance does not collect, transmit, or share any personal data. All your data stays exclusively on your device.</div>
+
+    <h3>Data processed</h3>
+    <p>IOBalance stores the following information locally on your device, entered voluntarily by the user:</p>
+    <ul>
+      <li>Financial transactions (amount, category, date, notes)</li>
+      <li>Custom categories and subcategories</li>
+      <li>Budgets and savings goals</li>
+      <li>App preferences (currency, language, theme, notifications)</li>
+      <li>Lock PIN (stored encrypted locally)</li>
+    </ul>
+
+    <h3>No data collection</h3>
+    <p>The app does not use analytics, trackers, advertising, crash reporting services, or any other technology that transmits data to external servers. There is no IOBalance backend.</p>
+
+    <h3>Permissions requested</h3>
+    <ul>
+      <li><strong>Biometrics:</strong> used only to unlock the app if enabled by the user. Biometric data is never read or stored by IOBalance.</li>
+      <li><strong>Notifications:</strong> used for reminders and budget alerts, managed entirely on-device.</li>
+      <li><strong>Storage (optional):</strong> required only to save the backup file to the Downloads folder.</li>
+    </ul>
+
+    <h3>Backup</h3>
+    <p>The backup feature exports your data to an <code>.iobalance</code> file on your device or shared via apps of your choice (e.g. Google Drive, email). IOBalance has no access to this file after export.</p>
+
+    <h3>Children</h3>
+    <p>IOBalance does not collect data from any user, including minors.</p>
+
+    <h3>Contact</h3>
+    <p>For any privacy questions: <strong>giacomo.giostra@gmail.com</strong></p>
+  </div>
+
+  <h2>📱 Play Store Description — EN</h2>
+  <div class="card">
+    <h3>Title</h3>
+    <p><strong>IOBalance: Budget & Expenses</strong></p>
+
+    <h3>Short description (80 chars)</h3>
+    <p>Track expenses and income. Net balance, budgets, savings goals. 100% private.</p>
+
+    <h3>Full description</h3>
+    <p>IOBalance is the personal finance app for people who want full control without complexity. Modern interface, data always safe on your device, no account required.</p>
+    <p><strong>💰 Track income & expenses</strong><br>
+    Log transactions in a few taps. Customizable categories and subcategories with icons and colors. Automatic recurring transactions. Partial refund support.</p>
+    <p><strong>📊 Complete dashboard</strong><br>
+    Monthly net balance, savings rate, pie charts by category, trend over the past months. Everything at a glance.</p>
+    <p><strong>🎯 Budgets & Goals</strong><br>
+    Set budgets per category (fixed amount or % of income). Create savings goals with projections based on your real data.</p>
+    <p><strong>🌍 6 languages supported</strong><br>
+    Italian, English, Spanish, French, German, Portuguese. Date and number formats adapted to your language.</p>
+    <p><strong>🔒 Complete privacy</strong><br>
+    No account, no server, no trackers. Your data stays on your phone. App lock with fingerprint and PIN.</p>
+    <p><strong>💾 Backup & Restore</strong><br>
+    Export all your data to a secure file. Restore to a new device in seconds. CSV and PDF export for external use.</p>
+    <p><strong>✈️ Vacation mode</strong><br>
+    Log expenses in foreign currency with automatic conversion. Manual exchange rate for full flexibility.</p>
+    <p><strong>🎨 Refined design</strong><br>
+    Light and dark theme, Inter font, smooth animations. An app that's a pleasure to use every day.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ ESPAÑOL ═══ -->
+<section class="lang-section" id="lang-es">
+  <p class="updated">Última actualización: 21 de mayo de 2026</p>
+
+  <h2>🔒 Política de Privacidad</h2>
+
+  <div class="card">
+    <div class="highlight">IOBalance no recopila, transmite ni comparte ningún dato personal. Todos tus datos permanecen exclusivamente en tu dispositivo.</div>
+
+    <h3>Datos tratados</h3>
+    <p>IOBalance almacena localmente en tu dispositivo la siguiente información, introducida voluntariamente por el usuario:</p>
+    <ul>
+      <li>Transacciones financieras (importe, categoría, fecha, notas)</li>
+      <li>Categorías y subcategorías personalizadas</li>
+      <li>Presupuestos y objetivos de ahorro</li>
+      <li>Preferencias de la app (moneda, idioma, tema, notificaciones)</li>
+      <li>PIN de bloqueo (guardado cifrado localmente)</li>
+    </ul>
+
+    <h3>Sin recopilación de datos</h3>
+    <p>La app no utiliza analíticas, rastreadores, publicidad, servicios de informes de errores ni ninguna otra tecnología que transmita datos a servidores externos. No existe un backend de IOBalance.</p>
+
+    <h3>Contacto</h3>
+    <p>Para cualquier pregunta sobre privacidad: <strong>giacomo.giostra@gmail.com</strong></p>
+  </div>
+
+  <h2>📱 Descripción Play Store — ES</h2>
+  <div class="card">
+    <h3>Título</h3>
+    <p><strong>IOBalance: Budget & Expenses</strong></p>
+
+    <h3>Descripción corta (80 car.)</h3>
+    <p>Controla gastos e ingresos. Saldo neto, presupuestos, objetivos de ahorro. Privado.</p>
+
+    <h3>Descripción completa</h3>
+    <p>IOBalance es la app de finanzas personales para quienes quieren control total sin complicaciones. Interfaz moderna, datos siempre seguros en tu dispositivo, sin cuenta requerida.</p>
+    <p><strong>💰 Registra ingresos y gastos</strong><br>
+    Añade transacciones en pocos toques. Categorías y subcategorías personalizables con iconos y colores. Transacciones recurrentes automáticas. Soporte de reembolsos parciales.</p>
+    <p><strong>📊 Panel completo</strong><br>
+    Saldo neto mensual, tasa de ahorro, gráficos por categoría, evolución en los últimos meses.</p>
+    <p><strong>🎯 Presupuestos y Objetivos</strong><br>
+    Establece presupuestos por categoría (importe fijo o % de ingresos). Crea objetivos de ahorro con proyecciones basadas en tus datos reales.</p>
+    <p><strong>🌍 6 idiomas disponibles</strong><br>
+    Italiano, Inglés, Español, Francés, Alemán, Portugués.</p>
+    <p><strong>🔒 Privacidad total</strong><br>
+    Sin cuenta, sin servidor, sin rastreadores. Tus datos se quedan en tu teléfono. Bloqueo con huella dactilar y PIN.</p>
+    <p><strong>💾 Copia de seguridad y restauración</strong><br>
+    Exporta todos tus datos a un archivo seguro. Restaura en un nuevo dispositivo en segundos.</p>
+    <p><strong>✈️ Modo vacaciones</strong><br>
+    Registra gastos en moneda extranjera con conversión automática.</p>
+    <p><strong>🎨 Diseño cuidado</strong><br>
+    Tema claro y oscuro, animaciones fluidas. Una app agradable de usar cada día.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ FRANÇAIS ═══ -->
+<section class="lang-section" id="lang-fr">
+  <p class="updated">Dernière mise à jour : 21 mai 2026</p>
+
+  <h2>🔒 Politique de Confidentialité</h2>
+
+  <div class="card">
+    <div class="highlight">IOBalance ne collecte, ne transmet et ne partage aucune donnée personnelle. Toutes vos données restent exclusivement sur votre appareil.</div>
+
+    <h3>Données traitées</h3>
+    <p>IOBalance stocke localement sur votre appareil les informations suivantes, saisies volontairement par l'utilisateur :</p>
+    <ul>
+      <li>Transactions financières (montant, catégorie, date, notes)</li>
+      <li>Catégories et sous-catégories personnalisées</li>
+      <li>Budgets et objectifs d'épargne</li>
+      <li>Préférences de l'app (devise, langue, thème, notifications)</li>
+      <li>PIN de verrouillage (stocké chiffré localement)</li>
+    </ul>
+
+    <h3>Aucune collecte de données</h3>
+    <p>L'app n'utilise pas d'analytics, de traceurs, de publicité, de services de rapport de plantage ni aucune autre technologie transmettant des données à des serveurs externes.</p>
+
+    <h3>Contact</h3>
+    <p>Pour toute question sur la confidentialité : <strong>giacomo.giostra@gmail.com</strong></p>
+  </div>
+
+  <h2>📱 Description Play Store — FR</h2>
+  <div class="card">
+    <h3>Titre</h3>
+    <p><strong>IOBalance: Budget & Expenses</strong></p>
+
+    <h3>Description courte (80 car.)</h3>
+    <p>Suivez dépenses et revenus. Solde net, budgets, objectifs d'épargne. 100% privé.</p>
+
+    <h3>Description complète</h3>
+    <p>IOBalance est l'application de finances personnelles pour ceux qui veulent un contrôle total sans complexité. Interface moderne, données toujours sécurisées sur votre appareil, aucun compte requis.</p>
+    <p><strong>💰 Enregistrez revenus et dépenses</strong><br>
+    Ajoutez des transactions en quelques touches. Catégories et sous-catégories personnalisables avec icônes et couleurs. Transactions récurrentes automatiques. Support des remboursements partiels.</p>
+    <p><strong>📊 Tableau de bord complet</strong><br>
+    Solde net mensuel, taux d'épargne, graphiques par catégorie, évolution sur les derniers mois.</p>
+    <p><strong>🎯 Budgets & Objectifs</strong><br>
+    Définissez des budgets par catégorie (montant fixe ou % des revenus). Créez des objectifs d'épargne avec projections basées sur vos données réelles.</p>
+    <p><strong>🌍 6 langues disponibles</strong><br>
+    Italien, Anglais, Espagnol, Français, Allemand, Portugais.</p>
+    <p><strong>🔒 Confidentialité totale</strong><br>
+    Aucun compte, aucun serveur, aucun traceur. Vos données restent sur votre téléphone. Verrouillage par empreinte digitale et PIN.</p>
+    <p><strong>💾 Sauvegarde & Restauration</strong><br>
+    Exportez toutes vos données dans un fichier sécurisé. Restaurez sur un nouvel appareil en quelques secondes.</p>
+    <p><strong>✈️ Mode vacances</strong><br>
+    Enregistrez des dépenses en devise étrangère avec conversion automatique.</p>
+    <p><strong>🎨 Design soigné</strong><br>
+    Thème clair et sombre, animations fluides. Une app agréable à utiliser chaque jour.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ DEUTSCH ═══ -->
+<section class="lang-section" id="lang-de">
+  <p class="updated">Letzte Aktualisierung: 21. Mai 2026</p>
+
+  <h2>🔒 Datenschutzerklärung</h2>
+
+  <div class="card">
+    <div class="highlight">IOBalance erfasst, überträgt oder teilt keinerlei personenbezogene Daten. Alle Ihre Daten verbleiben ausschließlich auf Ihrem Gerät.</div>
+
+    <h3>Verarbeitete Daten</h3>
+    <p>IOBalance speichert folgende Informationen lokal auf Ihrem Gerät, die vom Nutzer freiwillig eingegeben werden:</p>
+    <ul>
+      <li>Finanztransaktionen (Betrag, Kategorie, Datum, Notizen)</li>
+      <li>Benutzerdefinierte Kategorien und Unterkategorien</li>
+      <li>Budgets und Sparziele</li>
+      <li>App-Einstellungen (Währung, Sprache, Design, Benachrichtigungen)</li>
+      <li>Sperr-PIN (lokal verschlüsselt gespeichert)</li>
+    </ul>
+
+    <h3>Keine Datenerfassung</h3>
+    <p>Die App verwendet keine Analysen, Tracker, Werbung, Absturzberichte oder andere Technologien, die Daten an externe Server übertragen. Es gibt kein IOBalance-Backend.</p>
+
+    <h3>Kontakt</h3>
+    <p>Bei Fragen zum Datenschutz: <strong>giacomo.giostra@gmail.com</strong></p>
+  </div>
+
+  <h2>📱 Play Store Beschreibung — DE</h2>
+  <div class="card">
+    <h3>Titel</h3>
+    <p><strong>IOBalance: Budget & Expenses</strong></p>
+
+    <h3>Kurzbeschreibung (80 Zeichen)</h3>
+    <p>Ausgaben und Einnahmen verwalten. Nettostand, Budgets, Sparziele. 100% privat.</p>
+
+    <h3>Vollständige Beschreibung</h3>
+    <p>IOBalance ist die persönliche Finanz-App für alle, die volle Kontrolle ohne Komplexität wollen. Modernes Interface, Daten immer sicher auf Ihrem Gerät, kein Konto erforderlich.</p>
+    <p><strong>💰 Einnahmen & Ausgaben erfassen</strong><br>
+    Transaktionen in wenigen Taps hinzufügen. Anpassbare Kategorien und Unterkategorien mit Icons und Farben. Automatische Dauertransaktionen. Teilrückerstattungen unterstützt.</p>
+    <p><strong>📊 Vollständiges Dashboard</strong><br>
+    Monatlicher Nettosaldo, Sparquote, Kreisdiagramme nach Kategorie, Verlauf der letzten Monate.</p>
+    <p><strong>🎯 Budgets & Ziele</strong><br>
+    Budgets pro Kategorie festlegen (fester Betrag oder % der Einnahmen). Sparziele mit Prognosen auf Basis Ihrer echten Daten erstellen.</p>
+    <p><strong>🌍 6 Sprachen verfügbar</strong><br>
+    Italienisch, Englisch, Spanisch, Französisch, Deutsch, Portugiesisch.</p>
+    <p><strong>🔒 Vollständige Privatsphäre</strong><br>
+    Kein Konto, kein Server, keine Tracker. Ihre Daten bleiben auf Ihrem Telefon. App-Sperre mit Fingerabdruck und PIN.</p>
+    <p><strong>💾 Backup & Wiederherstellung</strong><br>
+    Alle Daten in eine sichere Datei exportieren. Auf einem neuen Gerät in Sekunden wiederherstellen.</p>
+    <p><strong>✈️ Urlaubsmodus</strong><br>
+    Ausgaben in Fremdwährung mit automatischer Umrechnung erfassen.</p>
+    <p><strong>🎨 Durchdachtes Design</strong><br>
+    Helles und dunkles Theme, flüssige Animationen. Eine App, die täglich Freude macht.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ PORTUGUÊS ═══ -->
+<section class="lang-section" id="lang-pt">
+  <p class="updated">Última atualização: 21 de maio de 2026</p>
+
+  <h2>🔒 Política de Privacidade</h2>
+
+  <div class="card">
+    <div class="highlight">O IOBalance não recolhe, transmite nem partilha quaisquer dados pessoais. Todos os seus dados permanecem exclusivamente no seu dispositivo.</div>
+
+    <h3>Dados tratados</h3>
+    <p>O IOBalance armazena localmente no seu dispositivo as seguintes informações, introduzidas voluntariamente pelo utilizador:</p>
+    <ul>
+      <li>Transações financeiras (valor, categoria, data, notas)</li>
+      <li>Categorias e subcategorias personalizadas</li>
+      <li>Orçamentos e objetivos de poupança</li>
+      <li>Preferências da app (moeda, idioma, tema, notificações)</li>
+      <li>PIN de bloqueio (guardado cifrado localmente)</li>
+    </ul>
+
+    <h3>Sem recolha de dados</h3>
+    <p>A app não utiliza análises, rastreadores, publicidade, serviços de relatórios de falhas nem qualquer outra tecnologia que transmita dados para servidores externos.</p>
+
+    <h3>Contacto</h3>
+    <p>Para qualquer questão sobre privacidade: <strong>giacomo.giostra@gmail.com</strong></p>
+  </div>
+
+  <h2>📱 Descrição Play Store — PT</h2>
+  <div class="card">
+    <h3>Título</h3>
+    <p><strong>IOBalance: Budget & Expenses</strong></p>
+
+    <h3>Descrição curta (80 car.)</h3>
+    <p>Controle despesas e receitas. Saldo líquido, orçamentos, objetivos de poupança.</p>
+
+    <h3>Descrição completa</h3>
+    <p>O IOBalance é a app de finanças pessoais para quem quer controlo total sem complicações. Interface moderna, dados sempre seguros no seu dispositivo, sem conta necessária.</p>
+    <p><strong>💰 Registe receitas e despesas</strong><br>
+    Adicione transações em poucos toques. Categorias e subcategorias personalizáveis com ícones e cores. Transações recorrentes automáticas. Suporte a reembolsos parciais.</p>
+    <p><strong>📊 Dashboard completo</strong><br>
+    Saldo líquido mensal, taxa de poupança, gráficos por categoria, evolução nos últimos meses.</p>
+    <p><strong>🎯 Orçamentos & Objetivos</strong><br>
+    Defina orçamentos por categoria (valor fixo ou % das receitas). Crie objetivos de poupança com projeções baseadas nos seus dados reais.</p>
+    <p><strong>🌍 6 idiomas disponíveis</strong><br>
+    Italiano, Inglês, Espanhol, Francês, Alemão, Português.</p>
+    <p><strong>🔒 Privacidade total</strong><br>
+    Sem conta, sem servidor, sem rastreadores. Os seus dados ficam no seu telemóvel. Bloqueio com impressão digital e PIN.</p>
+    <p><strong>💾 Backup & Restauro</strong><br>
+    Exporte todos os dados para um ficheiro seguro. Restaure num novo dispositivo em segundos.</p>
+    <p><strong>✈️ Modo férias</strong><br>
+    Registe despesas em moeda estrangeira com conversão automática.</p>
+    <p><strong>🎨 Design cuidado</strong><br>
+    Tema claro e escuro, animações fluidas. Uma app agradável de usar todos os dias.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  IOBalance · Giacomo Giostra · com.iobalance.app · v1.0.0
+</footer>
+
+<script>
+function showLang(lang) {
+  document.querySelectorAll('.lang-section').forEach(s => s.classList.remove('active'));
+  document.getElementById('lang-' + lang).classList.add('active');
+}
+// Auto-detect lingua browser
+const bl = (navigator.language || 'it').substring(0,2);
+const supported = ['it','en','es','fr','de','pt'];
+showLang(supported.includes(bl) ? bl : 'it');
+</script>
+</body>
+</html>
